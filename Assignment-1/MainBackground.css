@@ -1,0 +1,34 @@
+body {
+	background-image:url('http://i.imgur.com/qLHiUBz.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+    background-color: #000000;
+	background-size:cover;
+	 color: red;
+    }
+	
+img.hidden {
+	display:none;
+}	
+	
+	
+@media (max-width: 1025px){
+	section{
+		margin-left:15%;
+	}
+}
+
+@media (max-width: 500px){
+	section{
+		margin-left:0%;
+		overflow:hidden;
+	}
+	h1 {
+	float:left;
+	}
+	  img.hidden {
+	display: inline;
+	float:right;
+}
+}
+  

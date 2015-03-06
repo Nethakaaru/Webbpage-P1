@@ -1,0 +1,48 @@
+body {
+	background-image:url('http://i.imgur.com/qLHiUBz.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+    background-color: #000000;
+	background-size:cover;
+	 color: red;
+    }
+	
+img.hidden {
+	display:none;
+}	
+
+	
+	
+section.serie{
+	float:left;
+	margin-right:20px;
+	border-style:groove;
+	border-width:5px;
+	border-color:red;
+	 }
+	 
+	 
+@media (max-width: 1025px){
+	article{
+	margin-left:15%;
+   }
+   
+   
+@media (max-width: 500px){
+	article{
+	margin-left:0%;
+   }
+   section.serie{
+   float:none;
+   }
+   section {
+     overflow:hidden;
+   }
+   h1.titleHeader {
+	float:left;
+	}
+   img.hidden {
+	display: inline;
+	float:right;
+}
+}

@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# 2014-06-12 v1.0.0
+/ad0206/inlämning%201/persona3gun.jpg
+/ad0206/inlämning%201/offline.css
+
+NETWORK:
+*
+
+FALLBACK:
+/ /ad0206/inlämning%201/offline.html
